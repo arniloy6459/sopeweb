@@ -1,0 +1,79 @@
+$text-color: Black;
+$second-text: white;
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 217, 4, 0.336)), url(../img/bg/1527.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    height: 100%;
+}
+.login {
+    text-align: center;
+    width: 400px;
+    margin-top: 15vh;
+
+    .logo {
+        font-size: 35px;
+        color: $text-color;
+
+        &__icon {
+        font-size: 50px;
+        }
+
+        &__small{
+        font-size: 20px;
+        font-family: 'Averia Serif Libre';
+        }
+    }
+
+    .text {
+        font-family: 'Averia Serif Libre'; 
+        }
+
+    .inputForm{
+        font-family: 'Averia Serif Libre';
+
+        &__username{
+            outline: none;
+            border: none;
+            background: none;
+            font-size: 20px;
+            border-bottom: 2px solid $text-color;
+            padding: 7px;
+            width: 300px;
+        }
+
+        &__note{
+            margin-top: 5px;
+            color: red;
+            visibility: hidden;
+        }
+
+        &__pass{
+            margin-top: 15px;
+            outline: none;
+            border: none;
+            background: none;
+            font-size: 20px;
+            border-bottom: 2px solid $text-color;
+            padding: 7px;
+            width: 300px;
+        }
+
+        button{
+            margin-top: 20px;
+            padding: 5px 30px;
+            background: $text-color;
+            color: $second-text;
+            font-size: 20px;
+            border: 1px solid $text-color;
+        }
+    }
+    .pera{
+        margin-top: 100px;
+    }
+
+}

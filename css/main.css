@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 217, 4, 0.336)), url(../img/bg/1527.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%; }
+
+.login {
+  text-align: center;
+  width: 400px;
+  margin-top: 15vh; }
+  .login .logo {
+    font-size: 35px;
+    color: Black; }
+    .login .logo__icon {
+      font-size: 50px; }
+    .login .logo__small {
+      font-size: 20px;
+      font-family: 'Averia Serif Libre'; }
+  .login .text {
+    font-family: 'Averia Serif Libre'; }
+  .login .inputForm {
+    font-family: 'Averia Serif Libre'; }
+    .login .inputForm__username {
+      outline: none;
+      border: none;
+      background: none;
+      font-size: 20px;
+      border-bottom: 2px solid Black;
+      padding: 7px;
+      width: 300px; }
+    .login .inputForm__note {
+      margin-top: 5px;
+      color: red;
+      visibility: hidden; }
+    .login .inputForm__pass {
+      margin-top: 15px;
+      outline: none;
+      border: none;
+      background: none;
+      font-size: 20px;
+      border-bottom: 2px solid Black;
+      padding: 7px;
+      width: 300px; }
+    .login .inputForm button {
+      margin-top: 20px;
+      padding: 5px 30px;
+      background: Black;
+      color: white;
+      font-size: 20px;
+      border: 1px solid Black; }
+  .login .pera {
+    margin-top: 100px; }
+
+/*# sourceMappingURL=main.css.map */
